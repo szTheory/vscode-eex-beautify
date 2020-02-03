@@ -22,6 +22,14 @@ NOTE: For you that have a filename with extension `.html.eex`, your file might b
 }
 ```
 
+If the above broke your syntax highlighting, try this instead:
+
+```json
+"files.associations": {
+  "*.eex": "HTML (EEx)"
+}
+```
+
 ## Settings
 
 | Setting                              | Description                                           | Default |
